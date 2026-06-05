@@ -19,7 +19,7 @@ spec:
           value: LoadBalancer
         - name: "frontend.replicaCount"
           value: "3"
-        - name: "frontend.replicaCount"
+        - name: "backend.replicaCount"
           value: "3"
   destination:
     name: in-cluster
