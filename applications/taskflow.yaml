@@ -18,7 +18,9 @@ spec:
         - name: "frontend.service.type"
           value: LoadBalancer
         - name: "frontend.replicaCount"
-          value: "5"
+          value: "3"
+        - name: "frontend.replicaCount"
+          value: "3"
   destination:
     name: in-cluster
     namespace: taskflow
