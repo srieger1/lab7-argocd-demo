@@ -18,7 +18,7 @@ spec:
         - name: "frontend.service.type"
           value: LoadBalancer
         - name: "frontend.replicaCount"
-          value: "5"
+          value: "3"
         - name: "backend.replicaCount"
           value: "3"
   destination:
